@@ -39,3 +39,11 @@ public class Main {
 //      let get the value
         c = Math.sqrt(Math.pow(a,2)+Math.pow(b,2));
         System.out.println("The hypotenuse is : "+c);
+
+//      best practice to close scanner
+        in.close();
+
+
+
+    }
+}
